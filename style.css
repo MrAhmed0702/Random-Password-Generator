@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+.container {    
+    margin-top: 20px;
+    font-size: 1.2em;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #dedeb3; /* Creamy color background */
+    border-radius: 10px; /* Rounded corners for a friendlier look */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow to give depth */
+}
+
+label {
+    margin-right: 5px;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+input {
+    color: hsl(0, 2%, 45%);
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 7px;
+    background-color: #555;
+    border-radius: 15px;
+    border: none;    
+    color: white;
+}
+
+button:hover {
+    background-color: #777;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+input:focus {
+    outline: 2px solid #555;
+    background-color: #f0f0f0;
+}
+
+p {
+    margin-top: 20px;
+    font-weight: 800;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    .container {
+        font-size: 1em;
+    }
+
+    input, label, button {
+        font-size: 1em;
+    }
+}

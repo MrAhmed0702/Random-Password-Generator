@@ -25,7 +25,7 @@ function generate(length, includeLowerCase, includeUpperCase, includeNumbers, in
         for (let i = 0; i < length; i++) {
             password += allowChars.charAt(Math.floor(Math.random() * allowChars.length));
         }
-        passwordShow.innerHTML = password;
+        passwordShow.innerHTML = `The random password generated is: ${password}`;
     }
 }
 
